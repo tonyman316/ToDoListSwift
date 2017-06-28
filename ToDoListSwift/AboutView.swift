@@ -16,8 +16,8 @@ class AboutView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        let myURL = NSURL(string: "http:/worldflags.com")
-        let request = NSURLRequest(URL: myURL!)
+        let myURL = URL(string: "http://flagpedia.net")
+        let request = URLRequest(url: myURL!)
         aboutView.loadRequest(request)
     }
 

@@ -56,20 +56,20 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func alert(sender: AnyObject) {
+    @IBAction func alert(_ sender: AnyObject) {
         
         //let todoitem = sender as ToDoItem
         //var populationValue = todoitem.population
         //var populationValue = "21311241"
         
-        let detailViewAlert = UIAlertController(title: "Population", message: "Still working on it", preferredStyle: UIAlertControllerStyle.Alert)
+        let detailViewAlert = UIAlertController(title: "Population", message: "What do you think? :)", preferredStyle: UIAlertControllerStyle.alert)
         
-        let okButton = UIAlertAction(title: "OK", style: .Default, handler: nil)
+        let okButton = UIAlertAction(title: "OK", style: .default, handler: nil)
         detailViewAlert.addAction(okButton)
 //        let cancelButton = UIAlertAction(title: "Cancel", style: .Cancel, handler: nil)
 //        detailViewAlert.addAction(cancelButton)
         
-        self.presentViewController(detailViewAlert, animated: true, completion: nil)
+        self.present(detailViewAlert, animated: true, completion: nil)
        
     }
 
