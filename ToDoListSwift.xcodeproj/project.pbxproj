@@ -420,6 +420,7 @@
 				DEVELOPMENT_TEAM = 27U7RCXG8Q;
 				INFOPLIST_FILE = ToDoListSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonyman.ToDoListSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -432,6 +433,7 @@
 				DEVELOPMENT_TEAM = 27U7RCXG8Q;
 				INFOPLIST_FILE = ToDoListSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonyman.ToDoListSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

@@ -178,7 +178,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="bp4-eC-Hue"/>
+                    <tabBarItem key="tabBarItem" title="Web" image="World_Times" id="bp4-eC-Hue"/>
                     <navigationItem key="navigationItem" title="World Flags" id="1jM-dO-DJ7"/>
                     <connections>
                         <outlet property="aboutView" destination="TK3-L6-Yzg" id="ZeY-Em-Wd1"/>
@@ -213,6 +213,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="YjR-R2-bev" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="AWw-Ni-b4L">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
